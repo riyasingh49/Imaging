@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: -apple-system, "Sreda", "serif"x;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0f1b21;
+  color: white;
+}
+
+code{
+    font-family: source-code-pro;
+}
