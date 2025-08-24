@@ -16,7 +16,7 @@
    
 }
 .header span{
-    color: #FF2DD1;
+    color:orange;
 }
 
 .img-loading{
@@ -38,6 +38,16 @@
     background: #1F3540;
 }
 
+.camera{
+    padding-left: 20px;
+    height: 45px;
+}
+
+.gallery{
+    padding-left: 10px;
+    height: 35px;
+}
+
 .search{
     width: 500px;
     height: 50px;
@@ -47,6 +57,23 @@
     font-size: 18px;
     color: white;
     padding-left: 15px;
-    margin-right: 15px;
+    margin-right: 35px;
 }
+.search::placeholder{
+    color: #999;
+}
+
+.search-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+   background: orange;
+   height: 60px;
+   font-size: 20px;
+   border-radius: 50px;
+   cursor: pointer;
+}
+
+
 
